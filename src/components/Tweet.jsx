@@ -18,7 +18,7 @@ function Tweet({ tweet }) {
         <Message message={tweet.message} />
         <Actions />
       </div>
-
+      <Actions />
       <i className="fas fa-ellipsis-h"></i>
     </div>
   );
